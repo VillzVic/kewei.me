@@ -2,6 +2,10 @@
 var dict = {};
 
 	$(function() {
+		$('.goto').click(function() {
+		   window.location = "http://kewei.me/v2";
+		});
+	$(".alert").alert();
 	registerWords();
 	if (!(getCookieVal("lang"))){
 	setLanguage("en");
