@@ -11,12 +11,11 @@
   <meta name="viewport" content="width=device-width">
   <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- CSS
     ================================================== -->
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <!--<link rel="stylesheet" href="css/font-awesome/css/font-awesome.css"> -->
 <!-- Script
    ================================================== -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -26,6 +25,15 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
   <script src="js/main.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40767211-2', 'auto');
+  ga('send', 'pageview');
+</script>
   <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
@@ -55,14 +63,14 @@
                   <a href="#about"><i class="fa fa-user"></i><span> About Me</span></a>
                 </li>
                 <li class='tab'>
+                  <a href="#resume"><i class="fa fa-file-text"></i><span> Resume</span></a>
+                </li>
+                <li class='tab'>
                   <a href="#projets"><i class="fa fa-heart"></i><span> Projects</span></a>
                 </li>
                 <li class='tab'>
                   <a href="#research"><i class="fa fa-flask"></i><span> Research</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#resume"><i class="fa fa-file-text"></i><span> Resume</span></a>
-                </li>
+                </li>  
                 <li class='tab'>
                   <a href="#contact"><i class="fa fa-envelope"></i><span> Contact</span></a>
                 </li>
@@ -86,6 +94,9 @@
                                 <p>
                                     Hello, My name is Kewei HU. I was born on 18th March 1991 in HUNAN, CHINA. I graduated from Shanghai University in 2012. Now, I'am engineering student of University of Technology of Compiegne in France.
                                 </p>
+                                <h6>
+                                  <i class="fa fa-search"></i> I'm currently looking for a gratuation internship (at least 6 months) in Software engineering and Interacting Complex Systems. 
+                                </h6>
                             </div>
                         </div>
                         <div class="g1">
@@ -160,59 +171,78 @@
                           <ul class="no-list work">
                               <li>
                                   <h5>
-                                      Project collaborator
+                                      An evolutionary algorithm for timetabling problem
                                   </h5><span class="label label-success">2014-present</span>
-                                  <p class="people"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"></i><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"></i><u> Aziz Moukrim</u></a></p>
-                                  <p class="work"><i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
+                                  <p class="work"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"></i><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"></i><u> Aziz Moukrim</u></a><br/>
+                                  <i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
                                   <p>
-                                      In the context of laboratory work at UTC, development of mathematical models and applications for exam timetabling.
-                                  <br/>
-                                      Collaboration of an article for conference PATAT2014: <i>Exam timetabling at Université de Technologie de Compiégne: a memetic approach</i> (<a href="http://www.patatconference.org/patat2014/proceedings/3_2.pdf"><i class="fa fa-external-link"></i>link</a>).
+                                      This is the current research I'm working with, at this time, we investigated a memetic approach to the instance of our university and all instances from ITC2007. We defined chromosome in our problem and the associated encoding and decoding methods in order to convert a solution into a chromosome and vice versa, and we have integrated three heuristic solvers into the memetic in order to promote the population of chromosome. In August, I attended the PATAT2014 in the United Kingdom to present our work and an article is published on the proceeding of the conference: <i>Exam timetabling at Université de Technologie de Compiégne: a memetic approach. </i>(<a href="#publications"><i class="fa fa-eye"></i>details</a>).
                                   </p>
+                                  <p><i class="fa fa-key"></i> Keywords: <u>Genetic Algorithm</u>, <u>Meta-heuristic</u>, <u>Chromosome</u></p>
                               </li>
                               <li>
                                   <h5>
-                                      Junior Web developer
-                                  </h5><span class="label label-danger">2013-2014</span>
-                                  <p class="people"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"></i><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"></i><u> Aziz Moukrim</u></a></p>
-                                  <p class="work"><i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
+                                      A heuristic approaches for education timetabling
+                                  </h5><span class="label label-info">2013-2014</span>
+                                  <p class="work"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"></i><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"></i><u> Aziz Moukrim</u></a><br/>
+                                  <i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
                                   <p>
-                                      Internship as part of the engineering program of UTC in developpment department of Multiposting.
-                                      <br/>Programming in Python and PHP, Framework web Django and Symfony(<a href="./attachments/Poster_TN09.pdf"><i class="fa fa-file-pdf-o"></i>poster</a>).
+                                      During the research, we defined a evaluation function to calculate the cost of the current solution and I implemented a Deconstructive and Constructive(DC) solver as a local search method to improve the solution and after applying the DC, the quality of our solution is generally better than the solution obtained by IP method especially comparing to the calculation time. We also injected the solution of heuristic solver into the previous IP model and normally the IP solver can continue improving the solution. In order to test our algorithm, I also created an instance generator which use student enrollment record of our university to the instance file that can be used directly by our solver. And I also built some tools in Python to visualize the solution graphically so that the practitioner can judge the solution more efficiently.
                                   </p>
+                                  <p><i class="fa fa-key"></i> Keywords: <u>Heuristic</u>, <u>Local Search</u>, <u>Instance Generator</u> </p>
                               </li>
                               <li>
                                   <h5>
-                                      Junior assistant Engineer
-                                  </h5><span class="label label-danger">2013</span>
-                                  <p class="people"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"></i><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"></i><u> Aziz Moukrim</u></a></p>
-                                  <p class="work"><i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
+                                      Preprocessing and resolution of examination timetabling problem by liner programming
+                                  </h5><span class="label label-info">2013</span>
+                                  <p class="work"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"></i><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"></i><u> Aziz Moukrim</u></a><br/>
+                                  <i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
                                   <p>
-                                      In the context of summer internship in the maintenance service of CMCC. <br/>Maintenance of Internet network and management of information affaires.                                    
+                                      In this research, we used integer programming to build a mathematical model for solving the problem of exam timetabling of UTC, in the model, we introduced some new hard and soft constraint besides that in the ITC2007, and these constraints meet the organization requirements of our university and give more flexibility to the students. 
+                                      <br/>In order to solve the model more efficiently, we introduced many preprocessing methods to reduce the model size, for instance, we introduced some incompatibilities of supervisor and room capacity and we also pre-calculated the lower bound for some evaluation parameters in order to know the distance between the optimum solution and the current solution. 
+                                    
                                   </p>
+                                  <p><i class="fa fa-key"></i> Keywords: <u>Integer Programming</u>, <u>Lower bound</u>, <u>CPLEX</u></p>
                               </li>
                               <li>
                                   <h5>
                                      A new system to measure the wind speed
-                                  </h5><span class="label label-danger">2008-2009</span>
-                                  <p class="people"><i class="fa fa-male"></i> Supervisor: <a href="http://baike.baidu.com/view/3349668.htm"></i><u> ZHANG Tianru</u></a></p>
-                                  <p class="work"><i class="fa fa-location-arrow"></i> Zhuzhou N°2 middle school, Zhuzhou, China</p>
+                                  </h5><span class="label label-info">2008-2009</span>
+                                  <p class="work"><i class="fa fa-male"></i> Supervisor: <a href="http://baike.baidu.com/view/3349668.htm"></i><u> ZHANG Tianru</u></a><br/>
+                                  <i class="fa fa-location-arrow"></i> Zhuzhou N°2 middle school, Zhuzhou, China</p>
                                   <p>
-                                      Some specifications here...
+                                      This is my first scientific experience, the work was under the supervision of Mr. Zhang, who is a very famous teacher in youth creativity and innovation education. When I proposed my ideal of creating a measuring device for wind, his gave me a lot of instructions and introduced many experts from both research institution and university. I went to the local weather station several times to test our device and adapted it into the current system of the station under his help.
+                                      <br/>The device can measure the wind in real-time and send back result in wireless way, and the dedicated software can read the data and present it directly on the screen which include the current wind speed, 2-hour mean speed, 24-hour mean speed, wind change graph etc.
+                                      <br/>My invention was selected by the <b>China Soong Ching Ling Foundation</b>, and I got a silver prize for my invention, later, I wrote an article about my invention and this article won the third prize for the awarding program for Future scientists which is organized by <b>Chinese Academy of Sciences</b>.
+                                      <br/>This invention is under protection as an Utility model in China (<a href="#patent"><i class="fa fa-eye"></i>details</a>). 
+
                                   </p>
+                                   <p><i class="fa fa-key"></i> Keywords: <u>Wind measuring</u>, <u>Future Scientist</u>, <u>Invention</u></p>
                               </li>
                           </ul>
                           <h3>
                               <i class="fa fa-book"></i> Publications
                           </h3>
                           <ul class="no-list work">
-                            <li>
-                                <span class="label label-danger">2014</span>
+                            <li id="publications">
+                                <span class="label label-warning">2014</span>
                                 <p>
                                     <b>Arbaoui, T. and Boufflet, J.-P. and Hu, K. and Moukrim, A.</b><br/>
                                     Exam timetabling at Université de Technologie de Compiégne: a memetic approach<br/>
-                                    <i>PATAT 2014: Proceedings of the 10th International Conference of the Practice and Theory of Automated Timetabling</i>, the United Kingdom, pp. 438-441, Aug, 2014
+                                    <i>PATAT 2014: Proceedings of the 10th International Conference of the Practice and Theory of Automated Timetabling</i>, the United Kingdom, pp. 438-441, Aug, 2014. <br/><a href="http://www.patatconference.org/patat2014/proceedings/3_2.pdf"><i class="fa fa-external-link"></i>link</a>
                                 </p>
+                            </li>
+                          </ul>
+                          <h3>
+                              <i class="fa fa-file-text-o"></i> Patent
+                          </h3>
+                          <ul class="no-list work">
+                            <li id="patent">
+                                <span class="label label-warning">2010</span>
+                                <p>
+                                  <b>HU Kewei</b><br/> Wind speed measuring device: China, CN201514417(U).2010-06-23<br/>
+                                  <a href="http://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&NR=201514417U&KC=U&FT=D"><i class="fa fa-globe"></i>Document</a>
+                              </p>
                             </li>
                           </ul>
                         </div>
@@ -266,9 +296,9 @@
                                     </h5><span class="label label-success">2013-present</span>
                                     <p class="work"><i class="fa fa-location-arrow"></i> Laboratory Heudiasyc, Compiègne, France</p>
                                     <p>
-                                        In the context of laboratory work at UTC, development of mathematical models and applications for exam timetabling.
-                                    <br/>
-                                        Collaboration of an article for conference PATAT2014: <i>Exam timetabling at Université de Technologie de Compiégne: a memetic approach</i> (<a href="http://www.patatconference.org/patat2014/proceedings/3_2.pdf"><i class="fa fa-external-link"></i>link</a>).
+                                      In the context of laboratory work at UTC, development of mathematical models and applications for exam timetabling.
+                                    </p>
+                                    <p><i class="fa fa-binoculars"></i> For more details, please feel free to <a href="#research"><b> view all my research works</b></a>.
                                     </p>
                                 </li>
                                 <li>
@@ -559,38 +589,6 @@
                               <br/><strong lang>Desktop Software:</strong> <a href="http://www.leapband.fr">LeapBand</a> · <a href="https://github.com/hukewei/jeu-de-5">Jeu de 5</a> · <a href="https://github.com/hukewei/image-traitement">Image Traitement(Assembleur)</a>
                               <br/><strong lang>Database:</strong> <a href="upload/nf17_rapport.pdf">Gestion de médiathèque</a></p>
                       </div>
-                    <!--
-                        <div class="g1">
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/sports/4" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/sports/4" class="btn">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/sports/5" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/sports/5" class="btn">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="http://lorempixel.com/306/306/business/2" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="http://lorempixel.com/606/606/business/2" class="btn">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    -->
                       <div class="g3 etabs">
                         <h5>
                           I'm also doing research, here are some works I've done:
@@ -621,7 +619,8 @@
                             </div>
                             <div class="sny-fa fa-content">
                               <h4>My numbers</h4>
-                              <p><i class="fa fa-skype"></i> jy00271070
+                              <p><i class="fa fa-mobile"> &#43;&#51;&#51; &#40;&#79;&#41;&#55; &#55;&#79; &#51;&#49; &#53;&#53; &#50;&#55;</i>
+                              <br/><i class="fa fa-skype"></i> jy00271070
                               <br/><i class="fa fa-weixin"></i> kekebox
                               <br/><i class="fa fa-qq"></i> 99225412
                             </p>
