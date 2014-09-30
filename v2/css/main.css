@@ -163,7 +163,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* Backgrounds */
 
 .bg-1{
-  background-image: url('../images/floor1.jpg');
+  background-image: url('../images/floor.jpg');
 }
 
 /* Header */
@@ -397,6 +397,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .image-link .white{
   color:#ffffff;
 }
+
 /* Icon Box */
 .sny-icon{
   display: block;
