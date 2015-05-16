@@ -1,11 +1,841 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	 <meta http-equiv="refresh" content="1; url=http://kewei.me/v2" />
-	<title>Kewei.Me!</title>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+  <title>Kewei HU - Software Engineer - Photographer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- CSS
+    ================================================== -->
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+<!-- Script
+   ================================================== -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40767211-2', 'auto');
+  ga('send', 'pageview');
+</script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
 </head>
-<body>
-	<p>Redirecting to new page...</p>
+  <body class="bg-fixed bg-1">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+<div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2 class="white">
+                    Kewei HU
+                </h2>
+                
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class="etabs">
+                <li class="tab" id="tab-about">
+                  <a href="#about"><i class="fa fa-user"></i><span> Home</span></a>
+                </li>
+                <li class="tab">
+                  <a href="#resume"><i class="fa fa-file-text"></i><span> Resume</span></a>
+                </li>
+                <li class="tab">
+                  <a href="#projets"><i class="fa fa-heart"></i><span> Projects &amp; Courses</span></a>
+                </li>
+                <li class="tab">
+                  <a href="#research"><i class="fa fa-flask"></i><span> Research</span></a>
+                </li>  
+                <li class="tab">
+                  <a href="#contact"><i class="fa fa-envelope"></i><span> Contact</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                                <img src="images/gravatar.png" alt="Sunny Luthra">
+                            </div>
+                            <div class="info">
+                                <h2>
+                                    Kewei HU
+                                </h2>
+                                <h4>
+                                    Computer Engineer
+                                </h4>
+                                <p id="center">
+                                    Hi, I'm Kewei, I graduated from Shanghai University with B.S in 2012. Now, I'm a computer engineering student and master student (Double degree) with emphasis on the autonomous car system at the UTC in France.<a href="#" id="more-show" class="showLink" onclick="showHide('more');return false;">More..</a></p>
+                              <div id="more" class="more">
+                                 <p id="center">As an engineer, I have a strong experience in both theoretical  knowledge - algorithm analysis, data structure, probabilities, combinatorial  optimization - and development : Web development (Django, Symfony, MongoDB), Mobile development (Android), Desktop development(Swing). and I'm good at programming in C++, Java, Python and Php.<br>In the research fields, I have solid knowledge in Machine learning, Data mining, Timetabling, Computer network, Computer vision, Robotic navigation and Control theories.
+                                 <a href="#" id="more-hide" class="hideLink" onclick="showHide('more');return false;">↑Hide.</a></p>
+                              </div>
+                                <p></p>
+                                <h6>
+                                  <i class="fa fa-search"></i> I'm currently looking for a PhD thesis in the field of machine learning, data mining, pattern recongnition, imagine processing and/or computer vision. 
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="main-links sidebar">
+                                <h5>
+                                    You might be interested in...
+                                </h5>
+                                <ul>
+                                    <li>
+                                        <a href="#resume"><b>View My Resume</b></a>
+                                    </li>
+                                    <li>
+                                        <a href="#projets"><b>Check out my projects and courses</b></a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact"><b>Hire me for your next project</b></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://kewei.hu/v1">Back to previous version (Français/简体中文)</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="fa fa-envelope"></i>
+                              <div class="item-data">
+
+                                <h3><a href="mailto:kewei.hu@yahoo.com">kewei.hu@yahoo.com</a></h3>
+                                <p>Email Address</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="fa fa-linkedin"></i>
+                              <div class="item-data">
+                                <h3><a href="http://fr.linkedin.com/pub/kewei-hu/61/59b/706">kewei.hu</a></h3>
+                                <p>Linkedin Profile</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="fa fa-github"></i>
+                              <div class="item-data">
+                                <h3><a href="https://github.com/hukewei">@hukewei</a></h3>
+                                <p>Github projects</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Research Tab Data -->
+                <div id="research">
+                    <section class="clearfix">
+                        <div class="g3">
+                            <p><i class="fa fa-quote-left fa-3x pull-left fa-border"></i>As a student of computer engineering and Master of Science and Technology. I have both experiences in industrials and scientific fields. 
+                            <br>When I was young, I was always dreaming to become a scientist, I was starting launching rocket model since I was ten, and I participated the national youth competition of aeronautics and astronautics in 2001 in Qingdao, China and I got a place in the final round. 
+                            <br>When I go to the senior high school, I was an inventor during my spare time, I invented a machine that can measure the wind speed and the results are transmitted to the computer in a wireless way, more importantly, this system is compatible to the national standard and can be used directly in weather station.  And I got many awards from this invention, and this is my first experience in scientific field which is always encourage me to set foot in this field. 
+                            <br>I entered the university in 2009, although I choose a engineering major, but I didn't stop my activities in the scientific community, so besides engineering projects, here are some research projects I have been working with.<i class="fa fa-quote-right"></i></p>
+                        </div>
+                        <div class="break"></div>
+                        <div class="g3">
+                          <h3>
+                              <i class="fa fa-flask"></i> Research Experience
+                          </h3>
+                          <ul class="no-list work">
+                              <li>
+                                  <h5>
+                                      An evolutionary algorithm for timetabling problem
+                                  </h5><span class="label label-success">2014-present</span>
+                                  <p class="work"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"><u> Aziz Moukrim</u></a><br>
+                                  <i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
+                                  <p>
+                                      This is the current research I'm working with, at this time, we investigated a memetic approach to the instance of our university and all instances from ITC2007. We defined chromosome in our problem and the associated encoding and decoding methods in order to convert a solution into a chromosome and vice versa, and we have integrated three heuristic solvers into the memetic in order to promote the population of chromosome. In August, I attended the PATAT2014 in the United Kingdom to present our work and an article is published on the proceeding of the conference: <i>Exam timetabling at Université de Technologie de Compiégne: a memetic approach.</i> (<a href="#" class="scroll-link" data-id="publications"><i class="fa fa-eye"></i>details</a>).
+                                  </p>
+                                  <p><i class="fa fa-key"></i> Keywords: <u>Genetic Algorithm</u>, <u>Meta-heuristic</u>, <u>Chromosome</u></p>
+                              </li>
+                              <li>
+                                  <h5>
+                                      A heuristic approaches for education timetabling
+                                  </h5><span class="label label-info">2013-2014</span>
+                                  <p class="work"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"><u> Aziz Moukrim</u></a><br>
+                                  <i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
+                                  <p>
+                                      During the research, we defined a evaluation function to calculate the cost of the current solution and I implemented a Deconstructive and Constructive(DC) solver as a local search method to improve the solution and after applying the DC, the quality of our solution is generally better than the solution obtained by IP method especially comparing to the calculation time. We also injected the solution of heuristic solver into the previous IP model and normally the IP solver can continue improving the solution. In order to test our algorithm, I also created an instance generator which use student enrollment record of our university to the instance file that can be used directly by our solver. And I also built some tools in Python to visualize the solution graphically so that the practitioner can judge the solution more efficiently.
+                                  </p>
+                                  <p><i class="fa fa-key"></i> Keywords: <u>Heuristic</u>, <u>Local Search</u>, <u>Instance Generator</u> </p>
+                              </li>
+                              <li>
+                                  <h5>
+                                      Preprocessing and resolution of examination timetabling problem by liner programming
+                                  </h5><span class="label label-info">2013</span>
+                                  <p class="work"><i class="fa fa-male"></i> Supervisor: <a href="https://www.hds.utc.fr/~boufflet/dokuwiki/fr/accueil"><u> Jean-Paul Boufflet</u></a>, <a href="https://www.hds.utc.fr/~moukrim/dokuwiki/en/start"><u> Aziz Moukrim</u></a><br>
+                                  <i class="fa fa-location-arrow"></i> <a href="http://www.hds.utc.fr/?lang=en"><u>Laboratory Heudiasyc</u></a>, Compiègne, France</p>
+                                  <p>
+                                      In this research, we used integer programming to build a mathematical model for solving the problem of exam timetabling of UTC, in the model, we introduced some new hard and soft constraint besides that in the ITC2007, and these constraints meet the organization requirements of our university and give more flexibility to the students. 
+                                      <br>In order to solve the model more efficiently, we introduced many preprocessing methods to reduce the model size, for instance, we introduced some incompatibilities of supervisor and room capacity and we also pre-calculated the lower bound for some evaluation parameters in order to know the distance between the optimum solution and the current solution. 
+                                    
+                                  </p>
+                                  <p><i class="fa fa-key"></i> Keywords: <u>Integer Programming</u>, <u>Lower bound</u>, <u>CPLEX</u></p>
+                              </li>
+                              <li>
+                                  <h5>
+                                     A new system to measure the wind speed
+                                  </h5><span class="label label-info">2008-2009</span>
+                                  <p class="work"><i class="fa fa-male"></i> Supervisor: <a href="http://baike.baidu.com/view/3349668.htm"><u> ZHANG Tianru</u></a><br>
+                                  <i class="fa fa-location-arrow"></i> Zhuzhou N°2 middle school, Zhuzhou, China</p>
+                                  <p>
+                                      This is my first scientific experience, the work was under the supervision of Mr. Zhang, who is a very famous teacher in youth creativity and innovation education. When I proposed my ideal of creating a measuring device for wind, his gave me a lot of instructions and introduced many experts from both research institution and university. I went to the local weather station several times to test our device and adapted it into the current system of the station under his help.
+                                      <br>The device can measure the wind in real-time and send back result in wireless way, and the dedicated software can read the data and present it directly on the screen which include the current wind speed, 2-hour mean speed, 24-hour mean speed, wind change graph etc.
+                                      <br>My invention was selected by the <b>China Soong Ching Ling Foundation</b>, and I got a silver prize for my invention, later, I wrote an article about my invention and this article won the third prize for the awarding program for Future scientists which is organized by <b>Chinese Academy of Sciences</b>.
+                                      <br>This invention is under protection as an Utility model in China (<a href="#" class="scroll-link" data-id="patent"><i class="fa fa-eye"></i>details</a>). 
+
+                                  </p>
+                                   <p><i class="fa fa-key"></i> Keywords: <u>Wind measuring</u>, <u>Future Scientist</u>, <u>Invention</u></p>
+                              </li>
+                          </ul>
+                          <h3>
+                              <i class="fa fa-book"></i> Publications
+                          </h3>
+                          <ul class="no-list work">
+                            <li id="publications">
+                                <span class="label label-warning">2014</span>
+                                <p>
+                                    <b>Arbaoui, T. and Boufflet, J.-P. and Hu, K. and Moukrim, A.</b><br>
+                                    Exam timetabling at Université de Technologie de Compiégne: a memetic approach<br>
+                                    <i>PATAT 2014: Proceedings of the 10th International Conference of the Practice and Theory of Automated Timetabling</i>, the United Kingdom, pp. 438-441, Aug, 2014. <br><a href="http://www.patatconference.org/patat2014/proceedings/3_2.pdf"><i class="fa fa-external-link"></i>link</a>
+                                </p>
+                            </li>
+                          </ul>
+                          <h3>
+                              <i class="fa fa-file-text-o"></i> Patent
+                          </h3>
+                          <ul class="no-list work">
+                            <li id="patent">
+                                <span class="label label-warning">2010</span>
+                                <p>
+                                  <b>HU Kewei</b><br> Wind speed measuring device: China, CN201514417(U).2010-06-23<br>
+                                  <a href="http://worldwide.espacenet.com/publicationDetails/biblio?CC=CN&amp;NR=201514417U&amp;KC=U&amp;FT=D"><i class="fa fa-globe"></i>Document</a>
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End Research Tab Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="alert alert-info fade in" role="alert">
+                              <h4><i class="fa fa-download"></i> Download</h4>
+                              <p>You can download my resume as PDF files.</p>
+                                <div class="dropdown">
+                                  <ul class="nav nav-pills">
+                                      <li class="dropdown active">
+                                        <a id="drop4" role="button" data-toggle="dropdown" href="#">Download Resume <span class="caret"></span></a>
+                                        <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                                          <li role="presentation" class="english">
+                                            <a role="menuitem" tabindex="-1" href="attachments/cv_kewei_hu_en.pdf">
+                                            <span class="english btn-icon"></span>English</a>
+                                        </li>
+                                          <li role="presentation">
+                                            <a role="menuitem" tabindex="-1" href="attachments/cv_kewei_hu_fr.pdf">
+                                            <span class="french btn-icon"></span>Français</a>
+                                        </li>
+                                        </ul>
+                                      </li>
+                                      <!---
+                                      <li class="dropdown">
+                                        <a id="drop4" role="button" data-toggle="dropdown" href="#">Download Transcript <span class="caret"></span></a>
+                                        <ul id="menu2" class="dropdown-menu" role="menu" aria-labelledby="drop5">
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="attachments/tr_kewei_hu_en.pdf">English version</a></li>
+                                          <li role="presentation"><a role="menuitem" tabindex="-1" href="attachments/tr_kewei_hu_fr.pdf">Version Français</a></li>
+                                        </ul>
+                                        
+                                      </li>
+                                      -->
+                                    </ul>
+                                </div>
+
+                            </div>
+                            
+                            <h3>
+                                <i class="fa fa-briefcase"></i> Work Experience
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        Software Developer
+                                    </h5><span class="label label-success">2015-present</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> Amadeus, Sophia Antipolis, France<br>
+                                      Graduation internship of indoor positioning and recommendation system research and development.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Project collaborator
+                                    </h5><span class="label label-info">2013-2014</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> Laboratory Heudiasyc, Compiègne, France<br>
+                                      In the context of laboratory work at UTC, development of mathematical models and applications for exam timetabling.
+                                    <br><i class="fa fa-binoculars"></i> For more details, please feel free to <a href="#research"><b> view all my research works</b></a>.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Junior Web developer
+                                    </h5><span class="label label-info">2013-2014</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> Multiposting, Paris, France<br>
+                                        Internship as part of the engineering program of UTC in developpment department of Multiposting.
+                                        <br>Programming in Python and PHP, Framework web Django and Symfony(<a href="./attachments/Poster_TN09.pdf"><i class="fa fa-file-pdf-o"></i>poster</a>).
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Junior assistant Engineer
+                                    </h5><span class="label label-info">2011</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> China Mobile, Zhuzhou, China<br>
+                                        In the context of summer internship in the maintenance service of CMCC. <br>Maintenance of Internet network and management of information affaires.                                    
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                       Electronic trainee
+                                    </h5><span class="label label-info">2011</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> Laboratory GE-SHU, Shanghai, China<br>
+                                        Summer internship as part of the engineering program of UTSEUS. <br>Automation Control using GE-FANUC PAC System RX3i.
+                                    </p>
+                                </li>
+                            </ul>
+                            <h3>
+                                <i class="fa fa-graduation-cap"></i> Education
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        Engineering Student
+                                    </h5><span class="label label-success">2012-present</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> University of Technology of Compiègne, France<br>
+                                        Studying <a href="http://www.utc.fr/formation_training/computer-science.php">Computer Science</a>. Specialized in knowledge systems and user interfaces.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Master Student
+                                    </h5><span class="label label-success">2014-present</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> University of Technology of Compiègne, France<br>
+                                        Parallels Master degree in <a href="http://www.utc.fr/formation_training/major-in-interacting-complex-system.php">Interacting Complex Systems</a> Major.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Bachelor in Computer engineering
+                                    </h5><span class="label label-info">2009-2012</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> UTSEUS, Shanghai University, China<br>
+                                        Studyinng theory and practice of science and technology in the field of computer science.<br>
+                                        <i class="fa fa-key"></i> Graduated in July 2014. <a href="http://www.chsi.com.cn/xlcx/bg.do?vcode=041656300901&amp;ln=en&amp;lang=EN"><i class="fa fa-external-link"></i>Diploma</a>
+                                        <br><i class="fa fa-key"></i> Ranking: 1th of 91.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        GAOKAO(National College Entrance Examination)
+                                    </h5><span class="label label-info">2009</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> Zhuzhou N°2 middle school, HUNAN, China<br>
+                                        The National Higher Education Entrance Examination, I attended GAOKAO with emphasis on Science and mathematics.
+                                    </p>
+                                </li>
+                            </ul>
+                            <h3>
+                                <i class="fa fa-book"></i><span> Some Projects</span>
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                        Project Manager
+                                    </h5><span class="label label-info">2014</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> University of Technology of Compiègne, France<br>
+                                        In the context of course NF28 and IA04, I was the project manager of a team of 7 people for a desktop application development. The application allows users playing music collaboratively.
+                                        <br><i class="fa fa-key"></i> Using MCV and Multi Agent architecture.
+                                        <br><i class="fa fa-key"></i> Capture hand motion in 3D using the Leap Motion sensor.
+                                        <br><i class="fa fa-key"></i> Programming in Java with Swing and Leap Motion SDK.
+                                        <br><i class="fa fa-external-link"></i><a href="http://leapband.fr"> Goto project site</a>
+                                        <br><i class="fa fa-youtube-play"></i><a href="https://www.youtube.com/watch?v=iVhWlyZwHpo"> Watch video</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Technical director
+                                    </h5><span class="label label-info">2013</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> University of Technology of Compiègne, France<br>
+                                        In the context of course NF17, I was the technical director of a team of 4 people, Firstly, we provide specifications document for another group, in this document, we design a database in theory using 3NFBC normal forms, then, in the second step, we receive  specification document from another group, and we implement the project using Postgres database and apache environment.
+                                        <br><i class="fa fa-key"></i> Database design(UML) and implementation in Postgres DB.
+                                        <br><i class="fa fa-key"></i> Creating a website interface using jQuery, Bootstrap.
+                                        <br><i class="fa fa-key"></i> Programming in PHP, CSS and Javascript.
+                                        <br><i class="fa fa-github"></i><a href="https://github.com/hukewei/railway_ticket"> Github page</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Team Member
+                                    </h5><span class="label label-info">2012</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> UTSEUS, Shanghai University, China<br>
+                                        The competition "24h Innovation" is organized each year by ETS, Montréal, Canada, our 6-member team worked on the challenge of creating a public cyber space in developing countries (ex.Uruguay) which allows students can have a secure place to use their <a href="http://en.wikipedia.org/wiki/One_Laptop_per_Child">OLPC</a> sponsored by companies.
+                                        <br><i class="fa fa-key"></i> Propose a solution within 24 hours.
+                                        <br><i class="fa fa-key"></i> A cross-disciplinary team with expetise and talent.
+                                        <br><i class="fa fa-key"></i> First prize in Asia.
+                                        <br><i class="fa fa-youtube-play"></i><a href="https://www.youtube.com/watch?v=2EdV3iqV8W4"> Watch video</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Project Manager
+                                    </h5><span class="label label-info">2011-2012</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> UTSEUS, Shanghai University, China<br>
+                                        In the context of Innovation projects of Shanghai city, I was the project manager of a team of 5 people. This project allows user to control their lego robot anywhere and anytime using their smartphone via Internet (3G or WiFi).
+                                        <br><i class="fa fa-key"></i> Android development.
+                                        <br><i class="fa fa-key"></i> Streaming video and transmit via Internet.
+                                        <br><i class="fa fa-key"></i> Lego robot control via bluetooth.
+                                        <br><i class="fa fa-wordpress"></i><a href="http://blog.kekebox.com/lego-controller/"> View details</a>
+                                        <br><i class="fa fa-youtube-play"></i><a href="http://youtu.be/pO4BMI8J7cg"> Watch video</a>
+                                    </p>
+                                    <a href="#projets"><button class="btn">View all projects</button></a>
+                                </li>
+                            </ul>
+                            <h3>
+                                <i class="fa fa-tasks"></i><span> Other Experiences</span>
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    
+                                </li><li>
+                                    <h5>
+                                        Vice president
+                                    </h5><span class="label label-info">2010-2011</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> Shanghai University, Shanghai, China<br>
+                                        Vice president of Student Union of UTSEUS.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Volunteer
+                                    </h5><span class="label label-info">2011</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> EXPO 2010, Shanghai, China<br>
+                                        Volunteer with distinction on Shanghai EXPO 2010, I was serving at Houtan ticket center for 14 days.                               
+                                    </p>
+                                    <h5>
+                                        Volunteer
+                                    </h5><span class="label label-info">2010-2011</span>
+                                    <p class="work"><i class="fa fa-location-arrow"></i> Shanghai science and technology museum, Shanghai, China<br>
+                                        I was serving at Shanghai science and technology museum for servaral times, especially on the new year's day of 2010 and 2011.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="g1">
+                            <div class="sidebar">
+                                <h3>
+                                    <i class="fa fa-wrench"></i> Skills
+                                </h3>
+                                <h5>
+                                    Languages
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 100%"><span>Chinese | Native speaker</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 85%"><span>French | Fluent European B2 level</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 90%"><span>English | Fluent European C1 level</span></span>
+                                </div>
+                                <div class="break"></div>
+                                <h5>
+                                    Engineering
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 60%"><span>Project Management</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 70%"><span>Web Development</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 65%"><span>Desktop Development</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 40%"><span>Mobile App Development</span></span>
+                                </div>
+                                <div class="meter midnight">
+                                    <span style="width: 75%"><span>Data Warehouse</span></span>
+                                </div>
+                                <div class="meter pomengrate">
+                                    <span style="width: 66%"><span>Linux</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 65%"><span>R, Scilab</span></span>
+                                </div>
+                                <div class="break"></div>
+                                <h5>
+                                    Programations
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 90%"><span>C</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 90%"><span>C++</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 85%"><span>Java</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 75%"><span>PHP</span></span>
+                                </div>
+                                <div class="meter midnight">
+                                    <span style="width: 75%"><span>Python</span></span>
+                                </div>
+                                <div class="meter pomengrate">
+                                    <span style="width: 65%"><span>Perl</span></span>
+                                </div>
+                                <div class="meter asbestos">
+                                    <span style="width: 65%"><span>jQuery/JavaScript</span></span>
+                                <div class="break"></div>
+                                <div class="meter emerald">
+                                    <span style="width: 70%"><span>PS SQL</span></span>
+                                </div>
+                                <div class="break"></div>
+                                
+                                <h5>
+                                    Other Software
+                                </h5>
+                                <div class="meter emerald">
+                                    <span style="width: 90%"><span>Microsoft Office</span></span>
+                                </div>
+                                <div class="meter carrot">
+                                    <span style="width: 80%"><span>Photoshop</span></span>
+                                </div>
+                                <div class="meter wisteria">
+                                    <span style="width: 75%"><span>After Effect</span></span>
+                                </div>
+                                <div class="meter sunflower">
+                                    <span style="width: 65%"><span>Latex</span></span>
+                                </div>
+                                <!--
+                                <div class="meter asbestos">
+                                    <span style="width: 82%"><span>Python</span></span>
+                                </div>
+                                -->
+                                <div class="break"></div>
+                                <h3>
+                                    <i class="fa fa-star"></i> My Hobbies
+                                </h3>
+                                <p><i class="fa fa-check-square"></i>Photography 
+                                    <br>&nbsp;&nbsp;<a href="https://www.flickr.com/photos/90909141@N06/"> <i class="fa fa-flickr"></i> My Flickr</a>
+                                    <br><i class="fa fa-check-square"></i>Music
+                                    <br><i class="fa fa-check-square"></i>Classical Guitar
+                                    <br><i class="fa fa-check-square"></i>Geek Culture
+                                </p> 
+                            </div>
+                          </div>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Resume Tab Data -->
+              <!-- Projects Tab Data -->
+                <div id="projets">
+                    <section class="clearfix">
+                      <div class="g1">
+                        <h4>The Leapband:</h4>
+                          <div class="image">
+                              <img src="./images/leapband.png" alt="leapband">
+                              <div class="image-overlay">
+                                  <div class="image-link">
+                                      <p class="white">LeapBand - Playing music in a brand new way with your friends.</p>
+                                      <a href="http://leapband.fr" class="btn">Full View</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="g1">
+                        <h4>Leap 3D 2048:</h4>
+                          <div class="image">
+                              <img src="./images/leap_3d_2048.png" alt="">
+                              <div class="image-overlay">
+                                  <div class="image-link">
+                                      <p class="white">Play 2048 in 3D with Leap Motion, you can Swipe your hand to move tiles and circle your finger to rotate with your LeapMotion controller<br>
+                                      <a href="http://hukewei.github.io/2048-3d/" class="btn">Play Now</a></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="g1">
+                        <h4>LEGO Remote Controller:</h4>
+                          <div class="image">
+                              <img src="./images/lego_control.png" alt="">
+                              <div class="image-overlay">
+                                  <div class="image-link">
+                                      <p class="white">Control your lego robot with your mobile phone via Internet<br>
+                                      <a href="http://blog.kekebox.com/lego-controller/" class="btn">Full View</a>
+                                  </p></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="break"></div>
+                      <div class="g3">
+                          <h4>All my Projects</h4>
+                              <p><strong>Linux:</strong> <a href="./v1/upload/archive_rapport.pdf">BASH Archive</a>
+                              <br><strong lang="">Web Development:</strong> <a href="http://hukewei.github.io/2048/">Leap 2048</a> · <a href="http://hukewei.github.io/2048-3d/">Leap 2048 in 3D</a> · <a href="http://utc.kekebox.com/">UTC Hole</a> · <a href="http://blog.kekebox.com/lego-statistics/">LEGO Statistiques</a>
+                              <br><strong lang="">Mobile App Development:</strong> <a href="http://blog.kekebox.com/lego-controller/">LEGO Controler</a>
+                              <br><strong lang="">Desktop Software:</strong> <a href="http://www.leapband.fr">LeapBand</a> · <a href="https://github.com/hukewei/jeu-de-5">Puissance 4</a> · <a href="https://github.com/hukewei/image-traitement">Image processing(Assembly language)</a>
+                              <br><strong lang="">Database:</strong> <a href="./v1/upload/nf17_rapport.pdf">Library database design</a></p>
+                      </div>
+                      <div class="break"></div>
+                      
+                      <div class="g3" id="course">
+                        <h4>My courses</h4>
+                        <div class="alert alert-success fade in" role="alert">
+                            <h4><i class="fa fa-file-text-o"></i> Transcript</h4>
+                              <p>If you want a copy of my transcript, please feel free to <a href="mailto:keweihu@yahoo.com?subject=%5BRequest%20Transcript%5D"><i class="fa fa-envelope-square"></i><b>send me an email</b></a>.</p>
+                        </div>
+                        <ul class="nav nav-pills">
+                          <li><a href="#" class="scroll-link" data-id="algorithm">Algorithm, programming and database</a></li>
+                          <li><a href="#" class="scroll-link" data-id="network">Computer Architecture, Network and Telecommunication</a></li>
+                          <li><a href="#" class="scroll-link" data-id="statistics">Statistics and Data analysis</a></li>
+                          <li><a href="#" class="scroll-link" data-id="circuit">Circuit, Signal and PLD</a></li>
+                          <li><a href="#" class="scroll-link" data-id="robotic">Robotic, System of system design</a></li>
+                          <li><a href="#" class="scroll-link" data-id="icsi">Knowledge systems and user interfaces</a></li>
+                          <li><a href="#" class="scroll-link" data-id="management">Management and economics</a></li>
+                        </ul>
+                        <div class="break"></div>
+                        <ul class="no-list work">
+                          <li>
+                            <div id="algorithm">
+                              <h5>Algorithm, Programming and Database</h5>
+                              <p><b>LO01 Programming with C*</b><br>
+                              <b>Keywords:</b> <i>pointer, file, compilation, iteration and recursion</i></p>
+                              <p><b>LO21 Principles and Practice in Object-Oriented Programming**</b><br>
+                              <b>Project :</b> Creation of board game Puissance 4. <a href="attachments/projects/LO21/rapport.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>, <a href="https://github.com/hukewei/jeu-de-5"><i class="fa fa-github-square"></i> Source code</a><br>
+                              <b>Keywords:</b> <i>encapsulation, UML, design patterns, C++ STD, classes, inheritance, templates</i></p>
+                              <p><b>IA02 Problem solving and logic programming</b><br>
+                              <b>Project:</b> Creation of Japanese board game Okiya with prolog. <a href="attachments/projects/IA02/IA02_rapport.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>, <a href="attachments/projects/IA02/sourceCode.zip"><i class="fa fa-file-archive-o"></i> Source code</a><br>
+                              <b>Keywords:</b> <i>predicate calculus, logical representation, automatic deduction, heuristic, search in a state space, game theory</i></p>
+                              <p><b>NF16 Data Structures, Algorithms</b><br>
+                              <b>Keywords: </b><i>data structures, algorithms, files</i></p>
+                              <p><b>NF17 Database design</b><br>
+                              <b>Project 1:</b> Creation of database for library of UTC. <a href="attachments/projects/NF17/rapport.pdf"><i class="fa fa-file-pdf-o"></i> Report</a><br>
+                              <b>Project 2:</b> Implementation for railway ticket selling and administration system. <a href="https://github.com/hukewei/railway_ticket"> <i class="fa fa-github"></i> Github page</a><br>
+                              <b>Keywords:</b> <i>databases, conceptual model, relational, SQL, transaction, DBMS</i></p>
+                              <p><b>CS344 Intro to Parallel Programming</b><span class="label label-success">Online course</span> <span class="label label-info">In progress</span><br>
+                              <b>Project:</b> Image processing using Nvidia CUDA GPUs. <a href="https://github.com/hukewei/cs344"><i class="fa fa-github-square"></i> Source code</a><br>
+                              Open course from <a href="https://www.udacity.com/course/cs344">Udacity</a>, taken online with teachers from University of California, Davis.<br>
+                              <b>Keywords:</b> <i>parallel algorithms, CUDA programming, GPU programming model and architecture, Optimizing GPU Programs</i></p>
+                            </div>
+                          </li>
+                          <li>
+                            <div id="network">
+                              <h5>Computer Architecture, Network and Telecommunication</h5>
+                              <p><b>LO03  Operating systems architecture and administration**</b><br>
+                              <b>Project:</b> A file archiver in shell. <a href="attachments/projects/LO03/rapport.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>, <a href="https://github.com/hukewei/archive-linux/blob/master/vsh.sh"><i class="fa fa-github-square"></i> Source code</a><br>
+                              <b>Keywords:</b> <i>Operating systems theory, Client/server architecture, Operating systems administration, Unix and Linux systems</i></p>
+                              <p><b>SY26 Principal of telecommunication*</b><br>
+                              <b>Keywords:</b> <i>Digital communication system, modulation, encoding, decoding, signal design, noise analysis</i></p>
+                              <p><b>SR03 Architecture of Internet applications</b><br>
+                              <b>Keywords:</b> <i>Internet, client-server, distributed applications, Internet architectures, communications over TCP / IP, CORBA, HTML, HTTP, CSS, Java</i></p>
+                              <p><b>SR04 Computer Network</b><br>
+                              <b>Keywords:</b> <i>Architecture networks, LANs / wireless network interconnections, telecoms, WANs, TCP / IP, IPv6, Voice / IP</i></p>
+                              <p><b>TIS07 Algorithms and protocols for the interconnection of systems</b><br>
+                              <b>Keywords:</b> <i>Dynamic network design, Wireless Sensor Network (WSN), Real-time and group communication, Secure systems</i></p>
+                            </div>
+                          </li>
+                          <li>
+                            <div id="statistics">
+                              <h5>Statistics and Data analysis</h5>
+                              <p><b>SY02 Statistical Methods for Engineers</b><br>
+                              <b>Keywords:</b> <i>estimation, hypothesis testing, analysis of variance, linear regression, confidence interval</i></p>
+                              <p><b>SY09 Data mining</b><br>
+                              <b>Keywords:</b> <i>exploratory data analysis, data mining, classification, visualization, factor analysis</i></p>
+                              <p><b>MT09 Numerical analysis</b><br>
+                              <b>Keywords:</b> <i>nonlinear equations, Solution of systems of linear and nonlinear equations, interpolation, least-squares, numerical integration, numerical solution of differential equations, computation of eigenvalues</i></p>
+                              <p><b>NF26 Data warehouse and decision support</b><span class="label label-warning">Big Data</span><br>
+                              <b>Keywords:</b> <i>decision-making information systems, data warehousing, OLAP (Online Analytical processing), business object, reporting, decision, Business Intelligence, Pentaho, Birt, Hadoop, SAP</i></p>
+                              <p><b>UD617 Intro to Hadoop and MapReduce</b><span class="label label-success">Online course</span> <span class="label label-info">In progress</span><br>
+                              
+                              Open course from <a href="https://www.udacity.com/course/ud617">Udacity</a>, taken online with instructors from Cloudera, a company that helps develop, manage and support Apache Hadoop.<br>
+                              <b>Keywords:</b> <i>Hadoop cluster, HDFS, MapReduce design, Big Data</i></p>
+                              <p><b>TIS02 Advances in Statistical Machine Learning</b><br>
+                              <b>Keywords:</b> <i>Statistical learning theory, Machine Learning, Deep learning, Large-scale learning</i></p>
+                            </div>
+                          </li><li>
+                            <div id="circuit">
+                              <h5>Circuit, Signal and PLD</h5>
+                              <p><b>EN21 Electro-technic and electronic circuit*</b><br>
+                              <b>Keywords:</b> <i>operational amplifier, diode, transistor, semiconductor, transfer function, bode diagram, Montages rectifiers, MOSFETs</i></p>
+                              <p><b>SY06 Signal Analysis and processing*</b><br>
+                              <b>Keywords:</b> <i>signal processing, mathematical signal, Fourier transform, Laplace transform</i></p>
+                              <p><b>NF02 Digital Circuits and PLD*</b><br>
+                              <b>Keywords:</b> <i>VHDL, Logic gate, Programmable logic device, Digital electronics</i></p>
+                              <p><b>MI01 architecture of a processing element</b><br>
+                              <b>Keywords:</b> <i>microprocessors, microcontrollers, programmable devices, VHDL, Pentium family, assembly language</i></p>
+                            </div>
+                          </li>
+                          <li>
+                            <div id="robotic">
+                              <h5>Robotic, System of system design</h5>
+                              <p><b>SCI21 Dependable system design</b><br>
+                              <b>Keywords:</b> <i>Complexity theory, Dynamic programming, Combinatorial problem, Heuristic</i></p>
+                              <p><b>SCI22 Modeling and propagation of uncertainties</b><br>
+                              <b>Keywords:</b> <i>Theory of belief functions, Probability theory, Set-membership approach, Interval Analysis</i></p>
+                              <p><b>SCI30 Method and Modeling of 3DMotion Capture</b><br>
+                              <b>Keywords:</b> <i>Calibration, Computer vision, Multi-Cameras 3D reconstruction, Feature extraction and tracking</i></p>
+                              <p><b>TIS03 Modeling and optimizing discrete systems</b><br>
+                              <b>Keywords:</b> <i>Complexity theory, Dynamic programming, Combinatorial problem, Heuristic</i></p>
+                              <p><b>TIS04 Estimation for robotic navigation</b><br>
+                              <b>Keywords:</b> <i>Autonomous navigation, Canonical problems, Multisensor Data Fusion, Optimal Linear Estimation, Dynamic State Observer by Kalman filter (KF)</i></p>
+                              <p><b>TIS05 Control of autonomous robots in cooperation</b><br>
+                              <b>Keywords:</b> <i>Kinematic and dynamic models, Stabilization and control, Reactive navigation, Hierarchical and decentralized approaches</i></p>
+                            </div>
+                          </li>
+                          <li>
+                            <div id="icsi">
+                              <h5>Knowledge systems and user interfaces</h5>
+                              <p><b>LO17 Indexing and information search</b><br>
+                              <b>Project: </b> Realisation of a search engine for LCI news. <a href="attachments/projects/LO17/LO17_flyer.pdf"><i class="fa fa-file-pdf-o"></i> Flyer</a><br>
+                              <b>Keywords:</b> <i>Natural language processing, full text querying, indexing, images and sounds, structuring and indexing, search engines, information retrieval</i></p>
+                              <p><b>IA04 Multi-agent systems</b><br>
+                              <b>Project: </b>A distributed music collaboration systems (coupled with NF28)<br>
+                              <b>Keywords: </b><i>Multi-agent systems, Distributed computing, artificial intelligence</i></p>
+                              <p><b>NF28 Interactive systems engineering</b><br>
+                              <b>Project: </b>A distributed music collaboration systems (coupled with IA04). <a href="attachments/projects/NF28/NF28_rapport.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>, <a href="https://github.com/hukewei/leapband"><i class="fa fa-github-square"></i> Source code</a><br>
+                              <b>Keywords:</b> <i>Computer Human Interaction, Software Usability, Graphical User Interfaces, Event programming, Development Tools, MVC model, design patterns, Virtual Reality</i></p>
+                            </div>
+                          </li>
+                          <li>
+                            <div id="management">
+                              <h5>Management and economics</h5>
+                              <p><b>GE15 Basis In Business Management</b> <br>
+                              <b>Project: </b> Creation of a startup : ReProject. <a href="attachments/projects/GE15/GE15_rapport.pdf"><i class="fa fa-file-pdf-o"></i> Report</a><br>
+                              <b>Keywords:</b> <i>Marketing, intellectual property, production, human resources, legal status, finances</i></p>
+                              <p><b>GE21 Innovation and numeric economics</b><br>
+                              <b>Project: </b> A study of online shopping development in China: the success of Alibaba. <a href="attachments/projects/GE21/GE21_rapport.pdf"><i class="fa fa-file-pdf-o"></i> Report</a><br>
+                              <b>Keywords:</b> <i>digital, innovator-entrepreneur, business model, Uphill innovation, cooperation, knowledge, socio-technique and economic networks, Learn by learning</i></p>
+                              <p><b>FQ01 Quality management**</b><br>
+                              <b>Keywords:</b> <i>Quality Management, Design and Quality, Quality Function Deployment, Functional Analysis, Product Life Cycle Management, Work Breakdown Structure, Standardization, ISO 9000, Conformity assessment, Engineering economy</i></p>
+                              <p><b>CS03 Project management**</b><br>
+                              <b>Keywords:</b> <i>project management, PERT method, Gantt chart, Estimation and control of costs, risk management, Industrial reports</i></p>
+                            </div>
+                          </li>
+                          <li>
+                          <div id="explain">
+                            <p>* courses taken in China with chinese teachers<br>
+                              ** courses taken in China with UTs teachers</p>
+                          </div>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="g3 etabs">
+                        <h5>
+                          I'm also doing research, here are some works I've done:
+                        </h5>
+                        <a href="#research"><button class="btn">View My Research</button></a>
+                      </div>
+                      </section>
+                </div>
+              <!-- End Projects Data -->
+              <!-- Contact Tab Data -->
+                <div id="contact">
+                    <section class="clearfix">
+                       <div class="g1">
+                         <div class="sny-fa fa-box">
+                           <div class="sny-icon">
+                              <i class="fa fa-globe"></i>
+                            </div>
+                            <div class="sny-fa fa-content">
+                              <h4>My Address</h4>
+                              <p>3 RUE SOUTRANE, CH 48<br> 06560 VALBONNE<br>France</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-fa fa-box">
+                           <div class="sny-icon">
+                              <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="sny-fa fa-content">
+                              <h4>My numbers</h4>
+                              <p><i class="fa fa-mobile"> +33 (O)7 7O 31 55 27</i>
+                              <br><i class="fa fa-skype"></i> jy00271070
+                              <br><i class="fa fa-weixin"></i> kekebox
+                            </p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-fa fa-box">
+                           <div class="sny-icon">
+                              <i class="fa fa-user"></i>
+                            </div>
+                            <div class="sny-fa fa-content">
+                              <h4>Kewei HU</h4>
+                                <p><b>Computer Science and Software Engineering student</b>
+                                <br>kewei.hu@yahoo.com
+                                <br>kewei.hu
+                              </p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="break"></div>
+                       
+                    </section>
+                </div>
+              <!-- End Contact Data -->
+            </div>
+        </div>
+        <!-- End Tab Container -->
+        <footer>
+            <p style="font-size:150%" class="social">
+               <a href="https://www.facebook.com/kewei.me"><i class="fa fa-facebook"></i></a>&nbsp;
+               <a href="https://github.com/hukewei"><i class="fa fa-github"></i></a>&nbsp;
+               <a href="google.com/+KeweiHU1"><i class="fa fa-google-plus"></i></a>&nbsp;
+               <a href="http://fr.linkedin.com/pub/kewei-hu/61/59b/706/"><i class="fa fa-linkedin"></i></a>&nbsp;
+               <a href="mailto:kewei.hu@yahoo.com"><i class="fa fa-envelope"></i></a>      
+            </p>
+            <p><i class="fa fa-copyright"></i> Copyright 2014 Kewei.HU</p>
+        </footer>
+    </div><!-- #main -->
+</div><!-- #main-container -->
+<div class="scroll-top-wrapper ">
+    <span class="scroll-top-inner">
+        <i class="fa fa-2x fa-rotate-90 fa-step-backward"></i>
+    </span>
+</div>
 </body>
 </html>
