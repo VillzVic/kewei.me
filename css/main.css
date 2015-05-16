@@ -139,7 +139,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin: 0 auto;
 }
 
-
+.more {
+	display: none; }
 /* Utility */
 .chromeframe {
   margin: 0.2em 0;
